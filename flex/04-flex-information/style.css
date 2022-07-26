@@ -24,3 +24,27 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*solution*/
+
+.title
+{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+}
+
+.allplants
+{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.pictext
+{
+  display: flex;
+  flex-direction: column;
+}

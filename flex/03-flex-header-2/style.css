@@ -46,3 +46,58 @@ a {
 ul {
   list-style-type: none;
 }
+
+/*SOLUSHUN*/
+.header
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*justify-content: space-between;*/
+  padding: 0px;
+  columns: 20% 2;
+}
+
+ul
+{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-self: left;
+  margin: 10px;
+}
+
+.profile-image
+{
+  margin: 10px;
+}
+
+button
+{
+  margin: 10px;
+}
+
+.logo
+{
+  margin: 10px;
+}
+
+.alignleft
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 50%;
+}
+
+.alignright
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  width: 50%;
+}

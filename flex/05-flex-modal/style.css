@@ -64,3 +64,63 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/*solution*/
+
+.icon
+{
+  margin: 5px;
+  aspect-ratio: 1 / 1;
+}
+
+.modal
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.rightside
+{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.titlexbutton
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+.header
+{
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.buttons
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.text
+{
+  display: flex;
+  margin: 5px;
+}
+
+.continue
+{
+  margin: 5px;
+}
+
+.cancel
+{
+  margin: 5px
+}
