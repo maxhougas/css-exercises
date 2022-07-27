@@ -26,3 +26,20 @@ body {
   padding: 0px;
   margin-left: 0px;
 }
+
+/*solution*/
+.one, .three
+{
+  padding: 32px;
+}
+
+.one
+{
+  margin: 12px;
+}
+
+.three
+{
+  margin-top: 48px;
+  margin-left: auto;
+}

@@ -45,3 +45,35 @@ body, html {
 .footer {
   background-color: #393f4d;
 }
+
+/*solution*/
+.container
+{
+  display: grid;
+  grid-template-columns: 400px 1200px;
+  grid-template-rows: 100px 100px 500px 100px;
+  gap: 15px;
+}
+
+.header
+{
+  grid-column: 1/3;
+}
+
+.sidebar
+{
+  grid-row: 2/4;
+
+}
+
+.nav
+{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.footer
+{
+  grid-column: 1/3;
+  grid-row: 4/5;
+}
